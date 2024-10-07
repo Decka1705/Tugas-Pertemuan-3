@@ -12,7 +12,7 @@ public class BlockingServer {
             System.out.println("Server is listening on port " + PORT);
 
             String message = in.readLine();
-            System.out.println("Received message from client: " + message);
+            System.out.println("Menerima Pesan dari Klien: " + message);
 
             out.println("Halo Guys");
 
